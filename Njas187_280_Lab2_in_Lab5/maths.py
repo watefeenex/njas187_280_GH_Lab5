@@ -14,7 +14,10 @@ def fibonacci(length):
 
     return internal(1, 0, length) #Its first is 1 and second is 0 cause of the else statement above
 def factorial(num):
-    return
+    result = 1
+    for i in range(1,num+1): 
+        result = result * i
+    return result
 HEX_CHARS = {
     10: 'A',
     11: 'B',
