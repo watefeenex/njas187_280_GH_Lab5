@@ -13,7 +13,8 @@ def fibonacci(length):
             return internal(second, third, count)
 
     return internal(1, 0, length) #Its first is 1 and second is 0 cause of the else statement above
-
+def factorial(num):
+    return
 HEX_CHARS = {
     10: 'A',
     11: 'B',
